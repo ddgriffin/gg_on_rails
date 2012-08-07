@@ -5,7 +5,7 @@ GgOnRails::Application.routes.draw do
   resources :pages
   root :to => "pages#index"
 
-  resources :sessions
+  resources :workshops
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
